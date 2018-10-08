@@ -12,6 +12,8 @@ Original Image -->  Color Classification Result
   <img src="/images/result2.png" width="200" />
 </p>
 
+The ResNet 50 is trained on a pixel-wise labled dataset for 11 categories pixel-wise color classification. We use the convolutional features from second or third Res-block.
+
 For a clarification of the file system:
 
 #### train_color_pixel_classifier.py.py:
@@ -19,7 +21,7 @@ For a clarification of the file system:
 
 
 #### /Models/resnet.py:
-<pre>ResNet Script for classification.</pre>
+<pre>ResNet structure script.</pre>
 
 #### /lib/:
 <pre>Contains all the neccesary dependencies for our framework</pre>
